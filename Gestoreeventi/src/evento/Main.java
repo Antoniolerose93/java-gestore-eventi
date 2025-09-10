@@ -29,7 +29,7 @@ public static void main(String[] args) throws Exception {
     int nPostiprenotati = Integer.parseInt(scan.nextLine());
 
  if (e1.getPostiDisponibili() < nPostiprenotati) {
-    throw new IllegalArgumentException ("Non ci sono abbastanza posti disponibili");
+    throw new IllegalStateException ("Non ci sono abbastanza posti disponibili");
 }   else {
 
 } for (int i = 0; i < nPostiprenotati; i++){
