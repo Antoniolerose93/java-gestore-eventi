@@ -35,6 +35,7 @@ public void setPrezzo(BigDecimal prezzo) {
 @Override
 public String toString() {
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+    
     return "Concerto{" +
     "titolo="+  " " + getTitolo() +
     ", data=" + " " + getData().format(formatter) +
